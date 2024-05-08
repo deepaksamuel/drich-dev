@@ -28,6 +28,7 @@ SOURCES := $(wildcard src/*.cpp)
 EXECUTABLES := $(addprefix $(BIN_TARGET)/, $(basename $(notdir $(SOURCES))))
 
 EICRECON_DIR = ${DRICH_DEV}/EICrecon/src/services/geometry/richgeo
+DEPS += -I${DRICH_DEV}/EICrecon/src
 DEPS += -I$(EICRECON_DIR)
 
 LIB_TARGET = lib
