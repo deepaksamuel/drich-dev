@@ -17,7 +17,7 @@ LIBS += -L/usr/local/lib
 LIBS += -lDDCore -lDDRec
 LIBS += -lpodio -lpodioRootIO -ledm4hep
 LIBS += -lfmt -lspdlog
-LIBS += -lG4global -lG4materials -lG4geometry -lG4persistency
+LIBS += -lG4global -lG4materials -lG4geometry -lG4mctruth -lG4geomtext -lG4gdml
 DEPS += -I/usr/local/include
 FLAGS += -DSPDLOG_FMT_EXTERNAL
 
